@@ -1,0 +1,260 @@
+
+@import '~antd/dist/antd.css';
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.logo {
+
+
+
+  width: 120px;
+  height: 31px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px 24px 16px 0;
+  float: left;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.site-layout-background{
+
+  background: rgba(255, 255, 255, 0.2);
+}
+.Menu-layout-background{
+
+  background:rgba(137, 196, 244, 1)
+}
+.ab{
+  height: 50px;
+  background:rgba(137, 196, 244, 1);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+
+}
+
+.service{
+  width:100%;
+  height:150px;
+ background: #e6e6e6;
+
+
+
+}
+.img{
+  width:250px;
+  height: 250px;
+  margin:100px;
+}
+
+
+
+.Footer{
+  height:250px;
+  width:100%;
+  background: #282c34;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+}
+.Footer2{
+
+  height:150px;
+
+  width:100%;
+  background: #282c34;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+}
+
+
+.card-pro{
+  width:100%;
+
+  background: #f3f3f3;
+  height: 500px;
+}
+.projectbutton{
+ margin:15px;
+  margin-left:50px;
+}
+
+.card-pro2{
+  width:100%;
+  background: #f3f3f3;
+  height:700px;
+}
+
+
+
+.profile{
+  height:40px ;
+  width:150px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+
+  margin-top:50px;
+
+  background: #73AD21;
+}
+
+
+
+.problem-solve{
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: stretch;
+
+}
+
+
+.problem-solve-button-s{
+
+  margin-left:100px;
+}
+
+.problem-solve-button{
+
+
+  margin-right:300px;
+}
+
+
+.experience{
+
+  margin-right: 110px;
+}
+
+.projects{
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: stretch;
+
+
+}
+
+
+
+.from{
+   margin-top:50px;
+  margin-right:250px;
+
+
+}
+
+
+
+.project-Card{
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+
+  margin-left:200px;
+}
+
+
+
+.menu{
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  align-items: baseline;
+  align-content: stretch;
+  margin-right:200px;
+}
+
+.project-img{
+
+  width:600px;
+  height: 300px;
+  margin:100px;
+
+
+}
+
+
+
+.mm{
+  border-radius:25px;
+  border: 2px solid #73AD21;
+  background:#4CAF50;
+  margin:10px;
+  text-align: center;
+
+}
+
+
+
+
+.figma{
+
+
+  position: absolute;
+  width: 144px;
+  height: 107px;
+  right: 0px;
+  top: 0px;
+}
+
+

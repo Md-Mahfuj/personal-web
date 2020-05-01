@@ -1,0 +1,51 @@
+
+.Allbutton{
+
+
+    width:65px;
+    height: 33px;
+    margin-right:3px;
+    border-radius:7px;
+
+
+    background: #18A5E2;
+}
+
+.Moblile{
+    width:70px;
+    height: 33px;
+    margin-right:3px;
+    border-radius:7px;
+
+
+    background: #18A5E2;
+
+}
+
+.buttonDiv{
+
+    margin-bottom: 30px;
+
+}
+
+.CardOnebutton{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+}
+
+.Mywork{
+    margin-top:20px;
+    margin-left:40px;
+    color: #34C471;
+}
+
+.CardOne{
+
+
+
+}
