@@ -33,7 +33,11 @@
     align-content: stretch;
     /*background: #75dfe2;*/
 
+/*background-image: url("https://scontent.fdac25-1.fna.fbcdn.net/v/t1.0-9/s960x960/79361411_611789059567513_3964577400611667968_o.jpg?_nc_cat=110&_nc_sid=05277f&_nc_ohc=TPmjB9qZwhIAX9TclXV&_nc_ht=scontent.fdac25-1.fna&_nc_tp=7&oh=8cc76031e4ae406f20a80fc00114ef1f&oe=5ED51D86");*/
 
+
+    height: 600px;
+    width: 100%;
 
 
 }
@@ -209,6 +213,7 @@
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    margin-left:38px;
 
     margin-top:30px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
@@ -266,8 +271,10 @@
 
 .educationImage{
 
-    height:400px;
-    width:311px;
+    height:500px;
+    width:700px;
+    background-image: url("https://scontent.fdac25-1.fna.fbcdn.net/v/t1.0-9/71315991_2260335267409512_598199866711080960_n.jpg?_nc_cat=102&_nc_sid=6e5ad9&_nc_ohc=GnXX-06E-SAAX9GTgK4&_nc_ht=scontent.fdac25-1.fna&oh=00b3b415368a9b96c1569bb80f154933&oe=5ED5CA89");
+    /*background: #282c34;*/
 
 }
 .EducationTitle{

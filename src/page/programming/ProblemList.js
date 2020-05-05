@@ -90,8 +90,10 @@ const { Header, Content, Sider } = Layout;
                             name={name}
 
                         />
-                       About not
                    </Content>
+
+
+
                </Layout>
            </Layout>
        </Layout>,

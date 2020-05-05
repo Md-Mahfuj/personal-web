@@ -19,6 +19,7 @@ const TableManu=(props)=>{
                                    onClick={() => {
                                        props.setAll(item.complexity,item.type,item.site,item.name);
                                    }}
+                                   className={"TableManu"}
                                >
 
                                    {item.name}

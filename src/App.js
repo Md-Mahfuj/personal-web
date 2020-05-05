@@ -20,16 +20,17 @@ import Myp from "./componens/Common/Myp";
 import "./componens/Portfolio/Portfolio.css"
 import ProAbout from "./componens/Portfolio/About";
 import "./componens/Projects/Project.css"
-import CardOne from "./componens/Projects/CardOne";
 import Education from "./componens/Portfolio/education";
+import Table from "./componens/Common/Table";
 
 
 
 const { Header, Content, Footer } = Layout;
 
 
-
+let projectList;
 const App = (props) => (
+
     <div className="App">
 
       <Layout className="layout">
@@ -68,7 +69,6 @@ const App = (props) => (
 
 
          <CardE/>
-         <Myp/>
 
      </div>
 
@@ -79,9 +79,11 @@ const App = (props) => (
 
          <ProAbout/>
 
-         <CardOne/>
+
 
          <Education/>
+         <Table/>
+
 
     </Content>
 

@@ -1,4 +1,4 @@
-import React, {Component} from "react";
+import React, {useState} from "react";
 import {List, Card, Layout, Menu, Button} from 'antd';
 import {data} from '../data/data2';
 import {HeartTwoTone} from "@ant-design/icons";
@@ -6,7 +6,8 @@ import {HeartTwoTone} from "@ant-design/icons";
 import {Link} from "react-router-dom";
 import ProblemList from "./programming/ProblemList";
 import Portfolio from "./Portfolio";
-import CardOne from "../componens/Projects/CardOne";
+import Data from "../api/data/data";
+import Myp from "../componens/Common/Myp";
 
 
 
@@ -15,10 +16,22 @@ import CardOne from "../componens/Projects/CardOne";
 const { Header} = Layout;
 
 
+ const Projects =()=>{
 
-class Projects extends Component{
+     const [projectitem, setProjects] = useState(Data.webProjects);
 
-    render() {
+    const  changeProjectItem=(type)=>{
+
+        if(type=='web')
+            setProjects(Data.webProjects);
+        else
+            setProjects(Data.mobileProjects);
+
+
+
+     };
+
+
         return(
 
 
@@ -49,15 +62,15 @@ class Projects extends Component{
                     <div className={"CardOnebutton"}>
                         <div className={"buttonDiv"}>
                             <h1 className={"Mywork"}>My Works</h1>
-                            <Button type="primary" className={"Allbutton"}>All</Button>
-                            <Button type="primary" className={"Allbutton"}>Web</Button>
-                            <Button type="primary" className={"Moblile"}>Mobile</Button>
+                            {/*<Button type="primary" className={"Allbutton"} >All</Button>*/}
+                            <Button type="primary" className={"Allbutton"} onClick={()=>{changeProjectItem('web')}}>Web</Button>
+                            <Button type="primary" className={"Moblile"} onClick={()=>{changeProjectItem('moblie')}}  >Mobile</Button>
 
                         </div>
                     </div>
 
                       <div className={"CardOne"}>
-                          <CardOne/>
+                         <Myp projects={projectitem}/>
                       </div>
 
                 </div>
@@ -75,8 +88,8 @@ class Projects extends Component{
             </Layout>
 
         );
-    }
 
-}
+
+};
 
 export default Projects;

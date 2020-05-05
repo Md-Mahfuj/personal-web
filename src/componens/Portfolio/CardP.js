@@ -16,48 +16,48 @@ import {Button, Card,  List, Row} from 'antd';
 
              <div className={"CardP2"}>
 
-             <Card title="HackerRank" className={"CardP"} style={{ width: 300,height:300 }}>
+             <Card title="geeksforgeeks"  className={"CardP"} style={{ width: 300,height:300 }}>
 
                  <h4 className={"mm"}>problem solve 150+</h4>
-                 <h3 className={"mm"}>HTML,C++, Java</h3>
+                 <h3 className={"mm"}>Data structure,Algorithm</h3>
                  <h4 className={"mm"}>SoloLearn certificate: c++</h4>
 
 
 
                  <Button className={"profile2"}
                          href={"https://www.hackerrank.com/mdraju0162735"}
-                 >HackerRankProfile</Button>
+                 >Profile</Button>
 
              </Card>
 
-             <Card title="HackerRank" className={"CardP"} style={{ width: 300,height:300,bordered:5  }}>
+             <Card title="CodeChef" className={"CardP"} style={{ width: 300,height:300,bordered:5  }}>
                  <h4 className={"mm"}>problem solve 150+</h4>
                  <h3 className={"mm"}>HTML,C++, Java</h3>
                  <h4 className={"mm"}>SoloLearn certificate: c++</h4>
 
                  <Button className={"profile2"}
                          href={"https://www.hackerrank.com/mdraju0162735"}
-                 >HackerRankProfile</Button>
+                 >Profile</Button>
 
              </Card>
              <Card title="HackerRank" className={"CardP"} style={{ width: 300,height:300  }}>
                  <h4 className={"mm"}>problem solve 150+</h4>
-                 <h3 className={"mm"}>HTML,C++, Java</h3>
-                 <h4 className={"mm"}>SoloLearn certificate: c++</h4>
+                 <h3 className={"mm"}>HTML,C++, Java </h3>
+                 <h4 className={"mm"}>Data structure,Algorithm</h4>
 
                  <Button className={"profile2"}
                          href={"https://www.hackerrank.com/mdraju0162735"}
-                 >HackerRankProfile</Button>
+                 >Profile</Button>
 
              </Card>
-             <Card title="geeksforgeeks" className={"CardP"} style={{ width: 300,height:300 }}>
+             <Card title=" URI Online Judge" className={"CardP"} style={{ width: 300,height:300 }}>
                  <h4 className={"mm"}>problem solve 150+  </h4>
-                 <h3 className={"mm"} >HTML,C++, Java</h3>
+                 <h3 className={"mm"} >basic problem</h3>
                  <h4 className={"mm"}>SoloLearn certificate: c++</h4>
 
                  <Button className={"profile2"}
                          href={"https://www.hackerrank.com/mdraju0162735"}
-                 >HackerRankProfile</Button>
+                 >Profile</Button>
 
              </Card>
          </div>

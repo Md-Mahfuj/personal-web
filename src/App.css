@@ -52,11 +52,41 @@
 .site-layout-background{
 
   background: rgba(255, 255, 255, 0.2);
+  /*background: #18A5E2;*/
+
 }
+.TableManu:hover{
+  background: #A3E4D7   ;
+
+  transition-duration: 0.1s;
+  /*background: #61dafb;
+
+}
+
+
+
+
+
 .Menu-layout-background{
 
-  background:rgba(137, 196, 244, 1)
+
+
+  background:#FFF9F9;
+
+
+
+  /*background:rgba(137, 196, 244, 1)*/
+
+
 }
+
+.Menu-layout-background{
+
+  background: rgb(137,196,244, 1);
+}
+
+
+
 .ab{
   height: 50px;
   background:rgba(137, 196, 244, 1);
@@ -176,7 +206,7 @@
   margin-right: 110px;
 }
 
-.projects{
+.projectst{
 
   display: flex;
   flex-direction: row;
