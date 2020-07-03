@@ -21,7 +21,6 @@ import "./componens/Portfolio/Portfolio.css"
 import ProAbout from "./componens/Portfolio/About";
 import "./componens/Projects/Project.css"
 import Education from "./componens/Portfolio/education";
-import Table from "./componens/Common/Table";
 
 
 
@@ -82,7 +81,9 @@ const App = (props) => (
 
 
          <Education/>
-         <Table/>
+
+
+
 
 
     </Content>

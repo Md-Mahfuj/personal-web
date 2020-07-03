@@ -75,6 +75,10 @@ const { Header} = Layout;
 
                 </div>
 
+
+
+
+
                     <div className={"Footer2"}>
 
                         <h2 className={"title"}>©2018 Created by md.mahfuj</h2>

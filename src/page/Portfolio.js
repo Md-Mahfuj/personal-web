@@ -97,7 +97,6 @@ function Portfolio() {
 
                 </Card>
 
-
                 <Card bordered={true} className={"card-pro2"}
                       hoverable
                 >
@@ -112,15 +111,9 @@ function Portfolio() {
 
                 </Card>
 
-                {/*<div className={"experience"}>*/}
-                {/*    <h1 className={"title"}>Educations</h1>*/}
-                {/*    <h4>University: southeast University</h4>*/}
-                {/*    <h4>College:Vashantek Govt.college,Dhaka</h4>*/}
-                {/*    <h4>School:Mirpur Sidhanta HiGH School</h4>*/}
+                <Education/>
 
-                {/*</div>*/}
-
-                  <div className={"Footer2"}>
+                <div className={"Footer2"}>
 
                     <h2 className={"title"}>©2018 Created by md.mahfuj</h2>
                     <HeartTwoTone twoToneColor="#eb2f96"/>

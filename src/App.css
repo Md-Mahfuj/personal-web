@@ -218,6 +218,17 @@
 
 }
 
+@media only screen and (max-width: 480px) {
+
+  .projectst{
+    position:center;
+    display: block;
+    margin-left:100px;
+    margin-right:100px;
+
+  }
+
+}
 
 
 .from{

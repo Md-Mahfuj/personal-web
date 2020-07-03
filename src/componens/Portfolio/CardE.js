@@ -1,5 +1,6 @@
 import React from  "react"
 import { Card } from 'antd';
+import e from "../../assets/exprience.png"
 
     
 
@@ -12,7 +13,7 @@ const CardE =()=>{
                  <Card
                      hoverable
                      style={{ width: 240 }}
-                     cover={<img alt="example" src="https://technext.github.io/DarkJoe/assets/images/portfolio1.jpg" />}
+                     cover={<img alt="example" src={e}/>}
                  >
                      <h3>this website create by me</h3>
                      <h3> My first project</h3>
